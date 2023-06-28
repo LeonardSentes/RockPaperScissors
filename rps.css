@@ -1,0 +1,132 @@
+h1 {
+  color: white;
+  font-size: 48px;
+}
+
+body {
+  text-align: center;
+  background-color: #2779a7;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+#game-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 32px;
+}
+
+.choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+button img {
+  width: 190px; 
+  height: 190px;
+}
+
+.choice button {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.choice button:hover {
+  background-color: green;
+}
+
+.choice button img {
+  filter: brightness(1) invert(0);
+  transition: filter 0.3s ease;
+}
+
+.choice button:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.computer-choice-img {
+  width: 300px; 
+  height: 300px;
+}
+
+#score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#w-counter {
+  color: white;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+#l-counter{
+  color: white;
+  padding: 5px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 600px;
+}
+
+#modal-message {
+  font-size: 40px;
+  margin-top: 10px;
+  text-align: center;
+  
+}
+
+.close {
+  color: black;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#play-again {
+  margin-top: 5px;
+  font-size: 24px;
+}
+
+
+
+
+
+

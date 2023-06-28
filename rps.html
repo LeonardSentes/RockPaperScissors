@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors</title>
+  <link rel="icon" href="img/rps.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="rps.css">
+</head>
+<body>
+  <h1>Choose Your Weapon!</h1>
+<div id="result"></div>
+<div id="score">
+  <div id="w-counter">
+    Wins: <span id="wins">0</span>
+  </div>
+  <div id="l-counter">
+    Losses: <span id="losses">0</span>
+  </div>
+</div>
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="modal-message"></p>
+    <button id="play-again">Play Again</button>
+  </div>
+</div>
+  <div id="game-board">
+    <div class="choice">
+      <button id="rock" title="Rock">
+        <img src="img/rock.png" alt="Rock">
+      </button>
+    </div>
+    <div class="choice">
+      <button id="paper" title="Paper">
+        <img src="img/paper.png" alt="Paper">
+      </button>
+    </div>
+   <div class="choice">
+      <button id="scissors" title="Scissors">
+        <img src="img/scissors.png" alt="Scissors">
+      </button>
+   </div>
+  </div>
+  <script src="rps.js"></script>
+</body>
+</html>
+
+
+
+
+
+
